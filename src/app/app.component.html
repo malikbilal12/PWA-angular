@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+<div class="d-flex flex-wrap justify-content-center gap-4 mt-4">
+  <div *ngFor="let product of products">
+    <div class="card" style="width: 18rem">
+      <img
+        style="width: 18rem; height: 10rem"
+        src="{{ product.img }}"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ product.name }}</h5>
+        <div class="d-flex gap-4">
+          <h6>Price:{{ product.price }}$</h6>
+          <h6>Qantity:{{ product.stock }}</h6>
+        </div>
+        <button class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
