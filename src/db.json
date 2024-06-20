@@ -1,100 +1,147 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Product 1",
       "img": "https://i0.wp.com/thenutritionadventure.com/wp-content/uploads/2017/07/PourHouseAmericanBurger.jpg?resize=5236%2C3490",
       "price": 10.99,
-      "stock": 100,
+      "stock": 81,
       "category": "Category 1"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Product 2",
       "price": 20.99,
-      "stock": 150,
+      "stock": 136,
       "category": "Category 2",
       "img": "https://vaya.in/recipes/wp-content/uploads/2018/04/Kerala-Fish-Curry.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Product 3",
       "price": 30.99,
-      "stock": 200,
+      "stock": 187,
       "category": "Category 1",
       "img": "https://i0.wp.com/thenutritionadventure.com/wp-content/uploads/2017/07/PourHouseAmericanBurger.jpg?resize=5236%2C3490"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Product 4",
       "price": 40.99,
-      "stock": 50,
+      "stock": 43,
       "category": "Category 3",
       "img": "https://img-global.cpcdn.com/recipes/6a044188ce8e0432/1502x1064cq70/motichoor-ladoo-recipe-main-photo.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Product 5",
       "price": 50.99,
-      "stock": 75,
+      "stock": 67,
       "category": "Category 2",
       "img": "https://th.bing.com/th/id/OIP.I9E0jP5Rodk696NyBXKhcgHaEM?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Product 6",
       "price": 60.99,
-      "stock": 125,
+      "stock": 117,
       "category": "Category 3",
       "img": "https://th.bing.com/th/id/OIP.T-vhVtXOayrciyZQI9x48AHaGl?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Product 7",
       "price": 70.99,
-      "stock": 100,
+      "stock": 98,
       "category": "Category 1",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/1200px-Tomato_je.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Product 8",
       "price": 80.99,
-      "stock": 200,
+      "stock": 198,
       "category": "Category 2",
       "img": "https://i.pinimg.com/736x/42/27/bc/4227bccb1dce550a9c692c0f162574c1.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Product 9",
       "price": 90.99,
-      "stock": 50,
+      "stock": 47,
       "category": "Category 3",
       "img": "https://i0.wp.com/thenutritionadventure.com/wp-content/uploads/2017/07/PourHouseAmericanBurger.jpg?resize=5236%2C3490"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Product 10",
       "price": 100.99,
-      "stock": 60,
+      "stock": 58,
       "category": "Category 1",
       "img": "https://i.pinimg.com/originals/c2/97/3d/c2973d9724d9bed330774c9c1ddc64e9.jpg"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Product 11",
       "price": 110.99,
-      "stock": 120,
+      "stock": 118,
       "category": "Category 2",
       "img": "https://i0.wp.com/thenutritionadventure.com/wp-content/uploads/2017/07/PourHouseAmericanBurger.jpg?resize=5236%2C3490"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Product 12",
       "price": 120.99,
-      "stock": 180,
+      "stock": 177,
       "category": "Category 3",
       "img": "https://i.pinimg.com/originals/c2/97/3d/c2973d9724d9bed330774c9c1ddc64e9.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 20.99,
+      "stock": 133,
+      "category": "Category 2",
+      "img": "https://vaya.in/recipes/wp-content/uploads/2018/04/Kerala-Fish-Curry.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "1",
+      "name": "Product 1",
+      "img": "https://i0.wp.com/thenutritionadventure.com/wp-content/uploads/2017/07/PourHouseAmericanBurger.jpg?resize=5236%2C3490",
+      "price": 10.99,
+      "stock": 81,
+      "category": "Category 1",
+      "quantity": 1
+    },
+    {
+      "id": "6",
+      "name": "Product 6",
+      "price": 60.99,
+      "stock": 117,
+      "category": "Category 3",
+      "img": "https://th.bing.com/th/id/OIP.T-vhVtXOayrciyZQI9x48AHaGl?rs=1&pid=ImgDetMain",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "price": 30.99,
+      "stock": 187,
+      "category": "Category 1",
+      "img": "https://i0.wp.com/thenutritionadventure.com/wp-content/uploads/2017/07/PourHouseAmericanBurger.jpg?resize=5236%2C3490",
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 20.99,
+      "stock": 136,
+      "category": "Category 2",
+      "img": "https://vaya.in/recipes/wp-content/uploads/2018/04/Kerala-Fish-Curry.jpg",
+      "quantity": 1
     }
   ]
 }

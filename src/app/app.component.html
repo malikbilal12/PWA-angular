@@ -1,4 +1,4 @@
-<app-navbar></app-navbar>
+<app-navbar [cart]="cart"></app-navbar>
 <div class="d-flex flex-wrap justify-content-center gap-4 mt-4">
   <div *ngFor="let product of products">
     <div class="card" style="width: 18rem">
@@ -14,7 +14,9 @@
           <h6>Price:{{ product.price }}$</h6>
           <h6>Qantity:{{ product.stock }}</h6>
         </div>
-        <button class="btn btn-primary">Add to Cart</button>
+        <button (click)="addCart(product)" class="btn btn-primary">
+          Add to Cart
+        </button>
       </div>
     </div>
   </div>

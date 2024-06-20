@@ -1,6 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Shooping</a>
+    <a class="navbar-brand" href="#"
+      >Shooping
+      <span *ngIf="cart.length > 0" class="badge bg-secondary">{{
+        cart.length
+      }}</span>
+    </a>
     <button
       class="navbar-toggler"
       type="button"
